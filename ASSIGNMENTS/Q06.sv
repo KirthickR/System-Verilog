@@ -29,7 +29,7 @@ module assignment;
   end
 endmodule
     
-1[0]=9
+d1[0]=9
 d1[1]=1
 d1[2]=8
 d1[3]=3
