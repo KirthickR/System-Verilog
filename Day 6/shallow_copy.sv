@@ -1,4 +1,4 @@
-//shallow copy and class assignment are same
+
 
 module scopy_tb;
   class shallow_copy;
