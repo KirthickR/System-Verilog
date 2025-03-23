@@ -15,7 +15,8 @@ endclass
   endfunction
 endpackage
   
-import pack::*;
+import pack::*;//calls every class insides the packages
+import pack::bikes; //for specific class calling
 module tb;
 
   initial begin
