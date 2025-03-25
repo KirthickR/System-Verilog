@@ -4,7 +4,7 @@ module tb;
     rand bit[15:0] b;
     
     constraint c {a dist{1:=5,23:=6,50:=7};}
-    constraint d {b dist {8:/7, 16:/10, 15:/5};}
+    constraint d {b dist {8:/7, [11:14]:/10, 15:/5};} // here weight of 15 is low so,the 15 may be occurs or may not 
     
   endclass:dist_constrain
   
